@@ -1,1 +1,1 @@
-web: npm install jsdom
+web: git clone https://github.com/titaniumnetwork-dev/ultraviolet-site static && npm install && npm start && npm install jsdom && npm start
