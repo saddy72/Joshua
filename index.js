@@ -1,5 +1,5 @@
 const form = document.querySelector('form');
-const input = document.querySelector('input')
+const input = document.querySelector('input');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
@@ -19,8 +19,3 @@ function isUrl(val = ''){
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;
 };
-(async() => {
-    await import('./index.mjs');
-  })();
-  
-  
