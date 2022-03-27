@@ -42,6 +42,35 @@ html {
     background-color: transparent;
     color: #fff;
 }
+.changelog {
+    vertical-align:top; 
+    padding-left: 5%; 
+    color: white;
+}
+.changes {
+    padding-bottom:5%; width: 20%; background-color: rgb(32, 32, 32);
+}
+h3 .changes {
+    padding:10px; vertical-align: top; font-size: medium; font-weight: 500;
+}
+.banner {
+    display: inline; padding-top: 3%;
+}
+.banner h1 {
+    animation: fadein 2s;
+}
+.banner h2 {
+    animation: fadein 4s; padding-left: 12%;
+}
+.banner h4 {
+    animation: fadein 6s; font-weight: 300; padding-left: 30%;
+}
+.quicknav {
+    border-top: 5px white solid; padding-top: 0.5%; position: relative; width: -100px; background-color: rgb(51, 51, 51);
+}
+.quicknav h2 {
+    text-align: center; position: relative; padding-bottom: 0.2%;
+}
 .navbar {
     background-color: rgb(34, 34, 34);
     color: #FFF;
