@@ -97,8 +97,8 @@ a, a:link, a:visited {
     color: white;
     font-family:'ubuntu', sans-serif;
     padding: 7px;
-    border-left: 3px solid; 
-    border-right: 3px solid; 
+    border-left: 1px solid; 
+    border-right: 1px solid; 
 }
 .navbuttons {
     padding-left: 2px;
