@@ -1,5 +1,5 @@
-const form = document.querySelector('form');
-const input = document.querySelector('input');
+const form = Document.querySelector('form');
+const input = Document.querySelector('input')
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
