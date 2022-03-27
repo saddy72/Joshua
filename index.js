@@ -1,6 +1,9 @@
 /**
 * @jest-environment jsdom
 */
+GLOBAL.document = new JSDOM(html).window.document;
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 const form = document.querySelector('form');
 const input = document.querySelector('input')
 
