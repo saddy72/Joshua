@@ -6,9 +6,10 @@ const { JSDOM } = jsdom;
 
 const { document } = (new JSDOM('')).window;
 global.document = document;
+window.onload()=function() {
 const form = document.querySelector('form');
 const input = document.querySelector('input')
-
+}
 form.addEventListener('submit', async event => {
     event.preventDefault();
     window.navigator.serviceWorker.register('./sw.js', {
