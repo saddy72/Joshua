@@ -1,7 +1,7 @@
 (async() => {
-    await import('../ultraviolet-site/index.mjs');
+    await import('/index.mjs');
   })();
-  
+
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 
