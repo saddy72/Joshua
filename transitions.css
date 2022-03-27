@@ -8,7 +8,7 @@
     background-color: #212121;
     top: 100%;
     pointer-events: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .transition-1.is-active {
@@ -25,10 +25,21 @@
     background-color: #212121;
     left: 100%;
     pointer-events: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .transition-2.is-active {
     left: 0%;
     pointer-events: all;
+}
+@keyframes fadein
+{
+    from {
+        transform: translateY(-25px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
 }

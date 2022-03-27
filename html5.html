@@ -11,13 +11,15 @@
 
   <div class="transition transition-1 is-active"></div>
 
-    <div class="navbar">
-      <img style="height: 30px; padding-right: 10px;" src="logo_size.jpg">
-      <div class="navbuttons">
-      <button value="games.html" onclick=Navbarclickgames()>Games</button>
-      <button value="index.html" onclick=Navbarclickindex()>Proxy</button>
-      </div>
+  <div class="navbar">
+    <img style="height: 30px; padding-right: 10px;" src="logo_size.jpg">
+    <div class="navbuttons">
+      <button value="home.html" onclick=Navbarclickhome()>Home</button>
+    <button value="games.html" onclick=Navbarclickgames()>Games</button>
+    <button value="index.html" onclick=Navbarclickindex()>Proxy</button>
+    <button value="contact.html" onclick=Navbarclickcontact()>Contact</button>
     </div>
+  </div>
   <body>
     <div class="header">
       <a onclick=Navbarclickgames() style="float: left; font-size: 20px; cursor: pointer;"class="title"> < Back</a>
@@ -44,6 +46,10 @@
             <h2>Doodle Jump</h2>
             <h4>Platformer</h4>
           </div>
+          <div onclick="javascript:window.location = 'gs/public/drifthunters.html'" class="column">
+            <h2>Drift Hunters</h2>
+            <h4>Racing</h4>
+          </div>
           <div onclick="javascript:window.location = 'gs/public/flappybird/index.html'" class="column">
             <h2>Flappy Bird</h2>
             <h4>???</h4>
@@ -60,7 +66,7 @@
             <h2>Minecraft Classic</h2>
             <h4>Sandbox</h4>
           </div>
-          <div onclick="javascript:window.location = 'gs/public/Microsoft-Flight-Simulator/index.html'"class="column">
+          <div onclick="javascript:window.location = 'gs/public/microsoft-flight-simulator/index.html'"class="column">
             <h2>Microsoft Flight Simulator</h2>
             <h4>Flying</h4>
           </div>
