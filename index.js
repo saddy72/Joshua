@@ -1,3 +1,7 @@
+(async() => {
+    await import('../ultraviolet-site/index.mjs');
+  })();
+  
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 
@@ -19,3 +23,8 @@ function isUrl(val = ''){
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;
 };
+
+
+  
+  
+
