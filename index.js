@@ -1,10 +1,11 @@
 /**
 * @jest-environment jsdom
 */
-var html = "proxy.html"
-global.document = new JSDOM(html).window.document;
-var jsdom = require("jsdom");
-var JSDOM = jsdom.JSDOM;
+var jsdom = require('jsdom');
+const { JSDOM } = jsdom;
+
+const { document } = (new JSDOM('')).window;
+global.document = document;
 const form = document.querySelector('form');
 const input = document.querySelector('input')
 
