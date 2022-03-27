@@ -1,3 +1,7 @@
+(async() => {
+    await import('./index.mjs');
+  })();
+  
 const form = document.querySelector('form');
 const input = document.querySelector('input')
 
