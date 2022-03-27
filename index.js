@@ -1,3 +1,7 @@
+/**
+* @jest-environment jsdom
+*/
+
 const form = Document.querySelector('form');
 const input = Document.querySelector('input')
 
