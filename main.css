@@ -47,14 +47,27 @@ html {
     padding-left: 5%; 
     color: white;
 }
+.message {
+    color: white;
+    text-align: right;
+    width: fit-content;
+    justify-content: center;
+    display: block;
+    left: 70%;
+    top: -450px;
+    position: relative;
+}
 .changes {
     padding-bottom:5%; width: 20%; background-color: rgb(32, 32, 32);
 }
 h3 .changes {
     padding:10px; vertical-align: top; font-size: medium; font-weight: 500;
 }
+h3 {
+    font-size: medium;
+}
 .banner {
-    display: inline; padding-top: 3%;
+    display: inline; padding-top: 6%;
 }
 .banner h1 {
     animation: fadein 2s;
@@ -66,7 +79,8 @@ h3 .changes {
     animation: fadein 6s; font-weight: 300; padding-left: 30%;
 }
 .quicknav {
-    border-top: 5px white solid; padding-top: 0.5%; position: relative; width: -100px; background-color: rgb(51, 51, 51);
+    border-top: 5px white solid; padding-top: 0.5%; padding-bottom:100%; position: relative; width: -100px; background-color: rgb(51, 51, 51);
+top:-100px
 }
 .quicknav h2 {
     text-align: center; position: relative; padding-bottom: 0.2%;
