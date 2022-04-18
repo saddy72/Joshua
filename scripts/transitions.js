@@ -33,3 +33,10 @@ function Navbarclickhome() {
         window.location = "index.html"
     }, 300);
 }
+function Navbarclickpolls() {
+    const transition_div = document.querySelector('.transition');
+    transition_div.classList.add('is-active')
+    setTimeout( () => {
+        window.location = "polls.html"
+    }, 300);
+}
