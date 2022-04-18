@@ -205,7 +205,9 @@ form {
     display: flex;
     justify-content: center;
 }
-
+.poll {
+    margin: auto;
+}
 .desc {
     display: flex;
     justify-content: center;
