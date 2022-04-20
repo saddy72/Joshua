@@ -5,20 +5,18 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Obscure Wildwood</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel="stylesheet" href="style/w3.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/transitions.css">
     <script src="scripts/transitions.js"></script>
 </head>
 
 <div class="transition transition-1 is-active"></div>
-<div class="navbar">
-    <div class="navbuttons">
-    <button onclick=Navbarclickhome()>Home</button>
-    <button onclick=Navbarclickgames()>Games</button>
-    <button onclick=Navbarclickindex()>Proxy</button>
-    <button onclick=Navbarclickpolls()>Polls</button>
-    <button onclick=Navbarclickcontact()>Contact</button>
-    </div>
+<div class="w3-bar w3-black w3-bottombar">
+    <div onclick=Navbarclickindex() class="w3-bar-item w3-monospace w3-border-right">Home</div>
+    <div onclick=Navbarclickproxy() class="w3-bar-item w3-monospace w3-border-right">Proxy</div>
+    <div onclick=Navbarclickpolls() class="w3-bar-item w3-monospace w3-border-right">Polls</div>
+    <div onclick=Navbarclickcontact() class="w3-bar-item w3-monospace w3-border-right">Contact</div>
   </div>
 <body>
     <div class="changelog">
@@ -27,6 +25,7 @@
         <h3>03/26/22: Finished Site</h3>
         <h3>04/13/22: Added message and fixed forms</h3>
         <h3>04/18/22: Added polls and made changes, also organized code SUCCESSFULLY</h3>
+        <h3>04/19/22: Removed the games section entirely to improve performance</h3>
         </div>
     </div>
     <div class="banner">
@@ -37,7 +36,7 @@
     </div>
     <div class="message">
         <h1>Current Message:</h1>
-        <h3>I added polls!<br> Occasionally, I will create one to <br>get you guy's opinion on something,<br> so make sure to check regularly.<br> I will show any new ones here.<br><Br><br></h3>
+        <h3>Had to remove the games for <br>the proxy to work right. <br>They're still available on the backup server.<br><Br><br></h3>
     </div>
     <div class="quicknav">
         <h2>Use the navbar at the top to switch pages.</h2>

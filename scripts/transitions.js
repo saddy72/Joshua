@@ -8,17 +8,10 @@ function Navbarclickindex() {
     const transition_div = document.querySelector('.transition');
     transition_div.classList.add('is-active')
     setTimeout( () => {
-        window.location = "proxy.html"
+        window.location = "index.html"
     }, 300);
 }
 
-function Navbarclickgames() {
-    const transition_div = document.querySelector('.transition');
-    transition_div.classList.add('is-active')
-    setTimeout( () => {
-        window.location = "games.html"
-    }, 300);
-}
 function Navbarclickcontact() {
     const transition_div = document.querySelector('.transition');
     transition_div.classList.add('is-active')
@@ -26,11 +19,11 @@ function Navbarclickcontact() {
         window.location = "contact.html"
     }, 300);
 }
-function Navbarclickhome() {
+function Navbarclickproxy() {
     const transition_div = document.querySelector('.transition');
     transition_div.classList.add('is-active')
     setTimeout( () => {
-        window.location = "index.html"
+        window.location = "proxy.html"
     }, 300);
 }
 function Navbarclickpolls() {

@@ -6,6 +6,7 @@
     <title>Ultraviolet | Sophisticated Web Proxy</title>
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
     <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="stylesheet" href="style/w3.css">
     <link href="style/main.css" rel="stylesheet">
     <link href="style/transitions.css" rel="stylesheet">
     <script src="scripts/transitions.js"></script>
@@ -13,14 +14,11 @@
 
 <div class="transition transition-1 is-active"></div>
 
-<div class="navbar">
-    <div class="navbuttons">
-        <button onclick=Navbarclickhome()>Home</button>
-        <button onclick=Navbarclickgames()>Games</button>
-        <button onclick=Navbarclickindex()>Proxy</button>
-        <button onclick=Navbarclickpolls()>Polls</button>
-        <button onclick=Navbarclickcontact()>Contact</button>
-    </div>
+<div class="w3-bar w3-black w3-bottombar">
+    <div onclick=Navbarclickindex() class="w3-bar-item w3-monospace w3-border-right">Home</div>
+    <div onclick=Navbarclickproxy() class="w3-bar-item w3-monospace w3-border-right">Proxy</div>
+    <div onclick=Navbarclickpolls() class="w3-bar-item w3-monospace w3-border-right">Polls</div>
+    <div onclick=Navbarclickcontact() class="w3-bar-item w3-monospace w3-border-right">Contact</div>
   </div>
 <body>
     <div class="logo-wrapper">
@@ -77,6 +75,9 @@
         <br>
         <br>
     </div>
+</div>
+<div style="width: fit-content; margin: auto; text-align: center; padding-top: 3%">
+    <a href="#" onclick="javascript:window.navigator.serviceWorker.register('scripts/sw.js')">Click this if the links don't work</a><br><a style="text-decoration: none;">(starts service worker)</a>
 </div>
 </div>
 <footer>

@@ -7,6 +7,7 @@ h2 {
 }
 html {
     overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .row {
     width: fit-content;
@@ -18,7 +19,14 @@ html {
     align-content: center;
     justify-content: center;
 }
-
+.w3-bar-item {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.w3-bar-item:hover {
+    background-color: orange;
+    transition: 0.3s;
+}
 .column {
     color: #FFF;
     display: inline-block;
